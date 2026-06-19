@@ -35,7 +35,8 @@ This analysis focuses on answering the following business questions:
 
 This project uses the publicly available **E-Commerce Orders Dataset 2026** published on Kaggle.
 
-Dataset URL:
+Dataset Source:
+E-Commerce Orders Dataset 2026 (Kaggle)
 
 https://www.kaggle.com/datasets/mmumairkhattak/e-commerce-orders-dataset-2026-scra
 
