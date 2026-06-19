@@ -1,162 +1,178 @@
 # E-Commerce Sales & Customer Analytics
-### Business Intelligence Case Study
+
+## Business Intelligence Case Study
 
 This project presents a comprehensive Business Intelligence and Customer Analytics study based on 30,000 e-commerce transactions.
 
-The objective is to transform raw transactional data into actionable business insights through data exploration, KPI reporting, customer analytics, profitability analysis, and business recommendations.
+The objective is to transform raw transactional data into actionable business insights through exploratory data analysis (EDA), KPI reporting, customer analytics, profitability analysis, return analysis, and strategic business recommendations.
 
 ---
 
-## Project Overview
+## Executive KPI Dashboard
 
-This analysis focuses on:
+![Executive KPI Dashboard](images/KPI_dashboard.png)
 
-- Revenue performance
-- Customer behavior
-- Customer segmentation
-- Customer Lifetime Value (CLV)
-- Profitability analysis
-- Discount impact assessment
-- Return rate analysis
-- Executive business recommendations
+### Key Metrics
+
+| Metric                | Value   |
+| --------------------- | ------- |
+| Total Revenue         | $11.37M |
+| Total Profit          | $2.22M  |
+| Total Orders          | 30,000  |
+| Average Order Value   | $379    |
+| Return Rate           | 10.11%  |
+| Average Profit Margin | 21.97%  |
+
+---
+
+## Project Objectives
+
+This analysis focuses on answering the following business questions:
+
+* Which products generate the highest revenue?
+* Which categories generate the highest profit?
+* How does customer behavior affect profitability?
+* What impact do discounts have on profit margins?
+* Which customer segments are most valuable?
+* Which product categories have the highest return rates?
+* What strategic actions can improve business performance?
 
 ---
 
 ## Dataset
 
-This project uses the public Kaggle dataset:
+### Source
 
-**E-Commerce Orders Dataset 2026 | SCRA**
+This project uses the **E-Commerce Orders Dataset 2026**, publicly available on Kaggle.
 
-Source:
+Dataset:
 https://www.kaggle.com/datasets/mmumairkhattak/e-commerce-orders-dataset-2026-scra
 
-Author:
-Muhammad Umair
+License: MIT
 
-Dataset License:
-MIT License
+### Dataset Characteristics
 
-The dataset contains:
+* 30,000 transactions
+* 41 features
+* No missing values
+* Customer demographics
+* Product information
+* Revenue metrics
+* Profitability indicators
+* Return information
+* Discount structures
 
-- 30,000 e-commerce transactions
-- 41 business-related features
-- Customer demographics
-- Product information
-- Sales metrics
-- Profitability indicators
-- Shipping and return data
+The dataset is used solely for educational and portfolio purposes.
 
 ---
 
-## Technologies Used
+## Tools & Technologies
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Google Colab
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Google Colab
+* Jupyter Notebook
 
 ---
 
 ## Analysis Sections
 
-### 1. Dataset Quality Assessment
+### Revenue Analysis
 
-- Data structure validation
-- Missing value analysis
-- Duplicate record analysis
-- Statistical summary
+* Revenue by country
+* Monthly revenue trends
+* Geographic revenue distribution
 
-### 2. Executive KPI Dashboard
+### Customer Analytics
 
-Key business metrics:
+* Customer segmentation
+* Age distribution
+* Gender distribution
+* Customer Lifetime Value (CLV)
 
-- Total Revenue
-- Total Profit
-- Average Order Value
-- Return Rate
-- Profit Margin
+### Profitability Analysis
 
-### 3. Revenue Analysis
+* Profit by product category
+* Profit margin analysis
+* Discount impact assessment
 
-- Revenue by Product Category
-- Revenue by Country
-- Monthly Revenue Trends
+### Return Analysis
 
-### 4. Customer Analytics
-
-- Customer Segmentation
-- Customer Age Distribution
-- Customer Gender Distribution
-- Customer Lifetime Value Analysis
-
-### 5. Profitability Analysis
-
-- Profit by Product Category
-- Profit Margin Analysis
-- Discount Impact Analysis
-
-### 6. Return Analysis
-
-- Return Rate by Product Category
-- Return Risk Assessment
-
-### 7. Executive Summary
-
-Strategic recommendations based on analytical findings.
+* Return rates by category
+* Return behavior evaluation
 
 ---
 
 ## Key Findings
 
-### Revenue
+![Key Findings](images/images_14.png)
 
-- Total Revenue: USD 11.37 Million
-- Electronics generated the highest revenue.
-- August represented the strongest sales period.
+### Revenue Performance
+
+* Total revenue exceeded $11.37 million.
+* Electronics generated the highest overall revenue.
+* Revenue remained relatively stable throughout the year.
 
 ### Customer Analytics
 
-- Returning customers represented approximately 40% of customers.
-- Average customer age was approximately 36 years.
-- Gender distribution was nearly balanced.
-- Customer Lifetime Value distribution was highly skewed.
+* Returning customers represented approximately 40% of the customer base.
+* Average customer age was approximately 36 years.
+* Customer Lifetime Value distribution was highly skewed.
 
 ### Profitability
 
-- Total Profit exceeded USD 2.21 Million.
-- Electronics generated the highest absolute profit.
-- Beauty and Fashion achieved the highest profit margins.
-- Increasing discounts consistently reduced profitability.
+* Total profit exceeded $2.21 million.
+* Electronics generated the highest absolute profit.
+* Beauty and Fashion achieved the highest profit margins.
 
 ### Returns
 
-- Overall return rate was approximately 10.1%.
-- Fashion recorded the highest return rate.
-- Electronics maintained strong sales with moderate return levels.
+* Overall return rate was approximately 10.1%.
+* Fashion products showed the highest return rates.
 
 ---
 
 ## Business Recommendations
 
-- Expand high-margin categories such as Beauty and Fashion.
-- Continue investing in Electronics due to strong revenue generation.
-- Reduce excessive discounting.
-- Focus on retaining high-value customers.
-- Improve return management within Fashion products.
+![Business Recommendations](images/images_13.png)
+
+Based on the analysis:
+
+1. Expand high-margin categories such as Beauty and Fashion.
+2. Continue investing in Electronics due to strong revenue generation.
+3. Reduce excessive discounting and implement targeted promotions.
+4. Strengthen customer retention programs for high-value customers.
+5. Investigate return drivers within the Fashion category.
+6. Utilize customer segmentation for personalized marketing campaigns.
 
 ---
 
-## Project Notebook
+## Repository Structure
 
-The complete analysis is available in:
-
-`E_Commerce_Sales_&_Customer_Analytics_Business_Intelligence_Case_Study.ipynb`
+```text
+E-Commerce-Sales-Customer-Analytics/
+│
+├── images/
+│   ├── KPI_dashboard.png
+│   ├── images_13.png
+│   └── images_14.png
+│
+├── ecommerce_orders_dataset.csv
+├── E_Commerce_Sales_&_Customer_Analytics.ipynb
+├── README.md
+└── LICENSE
+```
 
 ---
 
 ## Author
 
-Deniz Atabey
+CoreLogic Labs
+
+Business Intelligence | Data Analytics | Python | Customer Analytics
+
+GitHub:
+https://github.com/CoreLogicLabs
